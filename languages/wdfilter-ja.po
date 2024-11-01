@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: widget-display-filter\n"
+"POT-Creation-Date: 2015-10-05 11:55+0900\n"
+"PO-Revision-Date: 2022-02-22 03:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: 日本語\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.7; wp-5.9"
+
+#: widget-display-setting.php:639
+msgid "[How to use]"
+msgstr "[使い方]"
+
+#: widget-display-setting.php:401
+msgid "Archive page"
+msgstr "アーカイブページ"
+
+#: widget-display-setting.php:403
+msgid "Attachment page"
+msgstr "添付ページ"
+
+#: widget-display-setting.php:427
+msgid "Custom Post : "
+msgstr "カスタムポスト："
+
+#: widget-display-setting.php:500
+msgid "Delete"
+msgstr "削除"
+
+#: widget-display-setting.php:518
+msgid "Description"
+msgstr "説明"
+
+#: widget-display-setting.php:397
+msgid "Desktop Device"
+msgstr "デスクトップデバイス"
+
+#: widget-display-setting.php:645
+#| msgid ""
+#| "* Discrimination of Desktop / Mobile device uses the wp_is_mobile "
+#| "function."
+msgid ""
+"Discrimination of Desktop / Mobile device uses the wp_is_mobile function."
+msgstr "デスクトップ/モバイルデバイスの判定は、wp_is_mobile 関数を使用しています"
+
+#: widget-display-setting.php:641
+msgid ""
+"Display conditions of the widget, set from Appearance -> Widgets menu of the "
+"management page."
+msgstr "ウィジェットの表示条件は、管理ページの 外観 -> ウィジェット メニューで有効化しているウィジェットに対して行います"
+
+#. Author of the plugin
+msgid "enomoto@celtislab"
+msgstr ""
+
+#: widget-display-setting.php:687 widget-display-setting.php:703
+#: widget-display-setting.php:719
+msgid "exclude"
+msgstr "除外する"
+
+#: widget-display-setting.php:618
+msgid "Exclude Post Format Type "
+msgstr "投稿フォーマットタイプ除外"
+
+#: widget-display-setting.php:644
+msgid "Group management by setting the same hashtag to multiple widgets."
+msgstr "同じハッシュタグを複数のウィジェットに設定すると一括で管理出来ます"
+
+#: widget-display-setting.php:396
+msgid "Hashtag"
+msgstr "ハッシュタグ"
+
+#: widget-display-setting.php:610
+msgid "Hashtag "
+msgstr "ハッシュタグ"
+
+#: widget-display-setting.php:613
+msgid "Hashtag Add"
+msgstr "ハッシュタグ追加"
+
+#: widget-display-setting.php:643
+msgid ""
+"Hashtag that can be set for each widget is only one. Between Hashtag and "
+"title should be separated by a space."
+msgstr "一つのウィジェットに設定できるハッシュタグは一つだけで、タイトルとハッシュタグを空白で区切って下さい"
+
+#: widget-display-setting.php:576 widget-display-setting.php:601
+msgid "Hidden Legacy Widgets"
+msgstr "従来ウィジェットを隠す"
+
+#: widget-display-setting.php:672
+msgid "Hidden Widget"
+msgstr "隠しウィジェット追加"
+
+#: widget-display-setting.php:400
+msgid "Home/Front-page"
+msgstr "ホーム/フロントページ"
+
+#. Author URI of the plugin
+msgid "https://celtislab.net/"
+msgstr "https://celtislab.net/"
+
+#. URI of the plugin
+msgid "https://celtislab.net/en/wp_widget_display_filter"
+msgstr "https://celtislab.net/wp_widget_display_filter"
+
+#: widget-display-setting.php:620
+msgid ""
+"If you select an unused post format type, it will be removed from the "
+"settings."
+msgstr "未使用の投稿フォーマットタイプを選択すると、設定から削除されます"
+
+#: widget-display-setting.php:686 widget-display-setting.php:702
+#: widget-display-setting.php:718
+msgid "include"
+msgstr "含める"
+
+#: widget-display-setting.php:586
+msgid "Introduction of plugin"
+msgstr "プラグインのご案内"
+
+#: widget-display-setting.php:105
+msgid "It contains invalid Post ID."
+msgstr "無効なポストIDが含まれています"
+
+#: widget-display-setting.php:517 widget-display-setting.php:653
+msgid "Legacy Widget"
+msgstr "従来のウィジェット"
+
+#: widget-display-setting.php:398
+msgid "Mobile Device"
+msgstr "モバイルデバイス"
+
+#: widget-display-setting.php:614
+msgid ""
+"Please enter a string tag for identification.　[Use characters : alphanumeric,"
+" hyphen, underscore]"
+msgstr "ハッシュタグとして識別する為の文字列を入力して下さい。［有効文字：半角英数字, ハイフォン（-）, アンダースコア（_）］"
+
+#: widget-display-setting.php:690
+msgid "Please specify Post ID separated by commas."
+msgstr "ポストIDをカンマ区切りで指定して下さい"
+
+#: widget-display-setting.php:417
+msgid "Post : "
+msgstr "投稿ページ : "
+
+#: widget-display-setting.php:405
+msgid "Post : Standard"
+msgstr "投稿ページ：標準フォーマット"
+
+#: widget-display-setting.php:423
+msgid "Post Category"
+msgstr "投稿カテゴリー"
+
+#: widget-display-setting.php:424
+msgid "Post Tag"
+msgstr "投稿タグ"
+
+#: widget-display-setting.php:577
+msgid ""
+"Registration Legacy widgets will no longer be displayed in Abailable Widgets."
+msgstr "登録した従来のウィジェットは、使用可能なウィジェットに表示されなくなります"
+
+#: widget-display-setting.php:546
+msgid "Restore"
+msgstr "元に戻す"
+
+#: widget-display-setting.php:637
+msgid "Save Settings"
+msgstr "設定の保存"
+
+#: widget-display-setting.php:402
+msgid "Search page"
+msgstr "検索結果ページ"
+
+#: widget-display-setting.php:682
+msgid "Set the display condition by Post ID."
+msgstr "ポストIDによる表示フィルター設定"
+
+#. Description of the plugin
+msgid ""
+"Set the display condition for each widget. Appearance -> Widget Display "
+"Filter menu added to the management page."
+msgstr ""
+"ウィジェットに表示条件を設定することが出来ます。（管理ページの 外観メニューに 'Widget Display Filter' が追加されます）  "
+
+#: widget-display-setting.php:698
+msgid "Set the display conditions by post category."
+msgstr "カテゴリーによる表示フィルター設定"
+
+#: widget-display-setting.php:714
+msgid "Set the display conditions by post tag."
+msgstr "投稿タグによる表示フィルター設定"
+
+#: widget-display-setting.php:399
+msgid "Singular Post ID"
+msgstr "ポストID（シングルページ）"
+
+#: widget-display-setting.php:404
+msgid "Static Page"
+msgstr "固定ページ"
+
+#: widget-display-setting.php:587
+msgid "Thank you for using Widget Display Filter. We offer some nifty plugin."
+msgstr "Widget Display Filter をご利用いただきありがとうございます。 ちょっと気の利いたプラグインを提供しています"
+
+#: widget-display-setting.php:231
+msgid ""
+"There are invalid characters in Hashtag. Use characters include Alphanumeric,"
+" Hyphens, Underscores."
+msgstr "ハッシュタグに無効な文字が含まれています。使用可能な文字は、半角英数字、ハイフォン（-）、アンダースコア（_）です"
+
+#: widget-display-setting.php:575
+msgid ""
+"Using Hashtag, Make the settings for the display conditions of Legacy "
+"Widgets and Widget Group block."
+msgstr "ハッシュタグを使用して、従来のウィジェット または ウィジェットグループブロック に表示条件を設定出来ます"
+
+#: widget-display-setting.php:642
+msgid ""
+"Very simple. If you enter Hashtag in Legacy Widget title or Widget Group "
+"block title input field, its display condition is enabled."
+msgstr ""
+"とてもシンプルです。従来のウィジェットのタイトルまたはウィジェットグループブロックのタイトル入力フィールドにハッシュタグを入力すると、その表示条件が有効になります"
+
+#. Name of the plugin
+#: widget-display-setting.php:36
+msgid "Widget Display Filter"
+msgstr "Widget Display Filter"
+
+#: widget-display-setting.php:571
+msgid "Widget Display Filter Settings"
+msgstr "ウィジェット表示フィルター設定"
+
+#: widget-display-setting.php:574 widget-display-setting.php:600
+msgid "Widgets Display Filter"
+msgstr "ウィジェット表示フィルター"

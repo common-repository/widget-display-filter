@@ -1,0 +1,96 @@
+
+.grid-row { display: flex; flex-flow: row wrap;}        
+.option-summary { width: 66%; margin-bottom:1em;}
+.option-summary div { margin: 0 0 1em 0;}
+.summary-hed { width: 192px; padding-right: 24px; font-weight: bold;}
+.side-info { width: 30%;  padding-left: 3%;}
+
+#wpfooter { position: relative;}
+
+.categorychecklist, .post_tagchecklist {
+  width: 300px; 
+  height:14em; 
+  overflow:auto; 
+  border: 1px solid #CEE1EF; 
+  padding:0.5em 0.5em;
+}
+
+ul.categorychecklist  .children {
+  padding: 0 0 0 18px;
+}
+
+/* jQuery Tab */
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.5; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix { zoom: 1; }
+
+.ui-tabs { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 1px 8px; padding: .2em .2em; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 0; margin: 1px .3em 0 0; border-bottom: 0; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active { margin-bottom: -1px; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0;  background: none; }
+.ui-tabs .ui-tabs-nav a { margin: 8px 10px; }
+
+.ui-state-default,
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default { border: 1px solid #dddddd; background-color: #f4f4f4; font-weight: bold; color: #0073ea; }
+.ui-state-default a, 
+.ui-state-default a:link, 
+.ui-state-default a:visited { color: #0073ea; text-decoration: none; }
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover, 
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus { border: 1px solid #0073ea; background-color: #0073ea; font-weight: bold; color: #ffffff; }
+.ui-state-active, 
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active { border: 1px solid #dddddd; background-color: #0073ea; font-weight: bold; color: #ffffff; }
+.ui-state-hover a, 
+.ui-state-hover a:hover, 
+.ui-state-hover a:link, 
+.ui-state-hover a:visited { color: #ffffff; text-decoration: none; }
+.ui-state-active a, 
+.ui-state-active a:link, 
+.ui-state-active a:visited { color: #ffffff; text-decoration: none; }
+
+#wrap_wdfilter-activation-table { overflow-x:auto;}
+#wdfilter-activation-table input[type=checkbox] {  height: 25px; width: 25px; opacity: 0; }
+#wdfilter-activation-table .s-size { min-width: 40px; max-width: 40px; text-align: center;}
+#wdfilter-activation-table .m-size { min-width: 64px; max-width: 64px; text-align: center;}
+#wdfilter-activation-table .l-size { min-width: 128px; max-width: 128px; text-align: center;}
+#wdfilter-activation-table td.wrap_checkbox {text-align: center;}
+.widefat tr:first-of-type th:first-of-type {position: sticky; left: 0px; text-align: left; z-index:3;}    
+.widefat td:first-of-type { position: sticky; left: 0px; text-align: left; background-color: white;}    
+.widefat td, .widefat th { padding: 4px;}
+
+thead .hash-name { background-color: aliceblue;}
+thead .hash-name, tbody .hash-name { min-width: 96px; max-width: 96px; font-size: 15px;}
+thead .device-type { background-color: oldlace;}
+thead .device-type, tbody .device-type { min-width: 40px; max-width: 40px; text-align: center;}
+thead .ckbox-type { background-color: lavender;}
+thead .pids { background-color: mistyrose;}
+thead .pformat { background-color: honeydew;}
+thead .pgroup { background-color: honeydew;}
+thead .tmpl-custom { background-color: lightyellow;}
+
+.altcheckbox label { color: #fff; margin-left: -32px;}
+.altcheckbox input[type="checkbox"]:checked + label { color: #339966;}
+.device-type label, .wrap_checkbox label { color: whitesmoke;}
+.dashicons-yes:before { border: 1px solid #eee; background-color: whitesmoke;}
+.widget_display_filter.dashicons-plus { color: #bbb; vertical-align: middle;}
+input.altcheckbox[type="checkbox"] { -webkit-appearance: none; appearance: none; display: contents;}
+.device-type input.altcheckbox[type="checkbox"]:checked + span.dashicons-yes:before { background-color: yellowgreen; }
+.wrap_checkbox input.altcheckbox[type="checkbox"]:checked + span.dashicons-yes:before { background-color: #4caf50; }
+.exclude-pformat { padding: 5px 0 20px}
+.exclude-pformat label { white-space:nowrap;}
+.exclude-pformat span { margin-right: 12px; }
+ul.color-exclude, ul.color-exclude a {color: #ff0000;}
+ul.color-include, ul.color-include a {color: #339966;}
+ul.color-exclude li, ul.color-include li {margin-bottom: 0;}
+li.postid-list a:hover {text-decoration: underline;}
+li.taxonomy-list {font-size: 12px;}
